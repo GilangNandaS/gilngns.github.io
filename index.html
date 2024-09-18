@@ -1,197 +1,303 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portofolio | Gilang Nanda S</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Bootstrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <!-- My CSS -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LangDev | Portofolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css">
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-</head>
-
-<body id="home">
+    
+  </head>
+  <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Gilang Nanda S</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#project">Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <div class="container">
+        <a class="navbar-brand rajdhani-bold fs-1" href="#"
+          >Lang<span style="color: red">Dev</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto oxygen-regular">
+            <li class="nav-item hvr-underline-from-center">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item hvr-underline-from-center">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item hvr-underline-from-center">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item hvr-underline-from-center">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-    <!-- End Navbar -->
 
-    <!-- jumbotron -->
-    <section class="jumbotron text-center">
-        <img src="img/foto biru1.png" class="rounded-circle img-thumbnail" alt="Gilang Nanda Saputra" width="200px" />
-        <h1 class="display-4">Gilang Nanda Saputra</h1>
-        <p class="lead mt-3">Web Fullstack Developer | Computer Student </p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ffff" fill-opacity="1"
-                d="M0,160L34.3,165.3C68.6,171,137,181,206,154.7C274.3,128,343,64,411,37.3C480,11,549,21,617,58.7C685.7,96,754,160,823,154.7C891.4,149,960,75,1029,58.7C1097.1,43,1166,85,1234,122.7C1302.9,160,1371,192,1406,208L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-    <!-- end jumbotron -->
-
-    <!-- about -->
-    <section id="about">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>About Me</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
-                    <p>Halo saya Gilang, sebagai web developer berusia 18 tahun, dalam teknologi dan pengembangan web
-                        saya memiliki keterampilan dalam bahasa pemrograman seperti HTML,CSS dan kerja back-end dalam
-                        bahasa PHP dan frameworknya yaitu Laravel. </p>
-                </div>
-                <div class="col-md-4">
-                    <p>Saya terbiasa dengan konsep pengujian dan debugging
-                        untuk memastikan kualitas dari produk yang saya buat.
-                        Selain keterampilan teknis, saya juga memiliki kemampuan komunikasi yang baik untuk bekerja
-                        dalam
-                        tim dan berinteraksi dengan klien.</p>
-                </div>
-            </div>
+    <!-- Hero Section -->
+    <div class="container-fluid hero-section" id="home">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h1
+            class="display-4 fw-bold"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Empowering Digital Solutions
+            <span class="text-warning">One Project</span> at a Time
+          </h1>
+          <p class="lead mt-3" data-aos="fade-up" data-aos-duration="1000">
+            As a freelance web developer, I specialize in crafting dynamic and
+            user-friendly web solutions tailored to your needs. My goal is to
+            bring your digital vision to life with creativity and precision.
+          </p>
+          <div class="mt-4">
+            <a
+              href="#"
+              class="btn btn-primary btn-lg me-3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              >View My Work</a
+            >
+          </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#e2edff" fill-opacity="1"
-                d="M0,192L34.3,176C68.6,160,137,128,206,133.3C274.3,139,343,181,411,218.7C480,256,549,288,617,272C685.7,256,754,192,823,176C891.4,160,960,192,1029,202.7C1097.1,213,1166,203,1234,186.7C1302.9,171,1371,149,1406,138.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-    <!-- end about -->
 
-    <!-- project -->
-    <section id="project">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>My Project</h2>
-                </div>
+        <div
+          class="col-lg-6 text-center mt-3"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="double-card hvr-grow-rotate">
+            <div class="custom-card">
+              <img
+                src="projects/pp2.jpg"
+                class="img-fluid"
+                alt="Portfolio Image"
+              />
             </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="projects/Lempak-Logo.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <p class="card-text">
-                                <a class="text-decoration-none" href="https://lempakbelitong.github.io/">Company Profile
-                                    LEMPAK
-                                    BELITONG</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="projects/2.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <p class="card-text">?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="projects/4.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <p class="card-text">?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ffff" fill-opacity="1"
-                d="M0,64L34.3,106.7C68.6,149,137,235,206,224C274.3,213,343,107,411,80C480,53,549,107,617,144C685.7,181,754,203,823,197.3C891.4,192,960,160,1029,122.7C1097.1,85,1166,43,1234,42.7C1302.9,43,1371,85,1406,106.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-    <!-- end project -->
+      </div>
+    </div>
 
-    <!-- kontak -->
-    <section id="contact">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>Contact Me</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center ">
-                <div class="col-md-8">
-                    <form>
-                        <div class="mb-3">
-                            <label for="Name" class="form-label">Nama Lengkap</label>
-                            <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="Email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="Pesan" class="form-label">Pesan</label>
-                            <textarea class="form-control" id="Pesan" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Kirim</button>
-                    </form>
-                </div>
-            </div>
+    <!-- About Me Section -->
+    <section
+      id="about"
+      class="container py-5 position-relative"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <div class="row text-center">
+        <div class="col-md-8 mx-auto">
+          <h2 class="display-4 fw-bold oxygen-regular">About Me</h2>
+          <p class="lead mt-3 oxygen-regular">
+            Hi, I'm Gilang, a passionate freelance web developer with a focus on
+            creating innovative and engaging web solutions. I am also a student
+            of Information Systems at Universitas Komputer Indonesia, where I am
+            honing my skills in the latest technologies and best practices.
+          </p>
+          <p class="oxygen-regular">
+            With experience in a range of web technologies and a keen eye for
+            design, I am dedicated to delivering high-quality projects that meet
+            my clients' needs. Whether it's building a new website or improving
+            an existing one, I approach every project with creativity and
+            attention to detail.
+          </p>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#0d6efd" fill-opacity="1"
-                d="M0,64L34.3,58.7C68.6,53,137,43,206,64C274.3,85,343,139,411,176C480,213,549,235,617,213.3C685.7,192,754,128,823,90.7C891.4,53,960,43,1029,69.3C1097.1,96,1166,160,1234,181.3C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-            </path>
-        </svg>
+      </div>
+
+      <!-- Decorative Elements -->
+      <div class="decorative-background position-absolute">
+        <div
+          class="decorative-element decorative-element-1"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        ></div>
+      </div>
     </section>
-    <!-- end kontak -->
 
-    <!-- footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-        <p>Created <i class="bi bi-globe2"></i> by <a class="text-white fw-bold"
-                href="https://www.instagram.com/gilngns/">Gilang Nanda
-                Saputra</a></p>
-    </footer>
-    <!-- end footer -->
+    <!-- My Projects Section -->
+    <section id="projects" class="container py-5">
+      <div class="row" data-aos="fade-up" data-aos-duration="1000">
+        <!-- Project Card 1 -->
+        <div class="col-md-4">
+          <div class="card project-card hvr-grow mt-3">
+            <div class="card-img-wrapper">
+              <img
+                src="https://bajo.jumbomark.com/labels/DID2019073790"
+                class="card-img-top img-fluid"
+                alt="Project 1"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Lempak Company Profile</h5>
+              </div>
+            </div>
+            <div class="card-body">
+              <a
+                href="https://lempakbelitong.github.io/"
+                class="btn btn-outline-light w-100"
+                >Visit Project</a
+              >
+            </div>
+          </div>
+        </div>
 
+        <!-- Project Card 2 -->
+        <div class="col-md-4">
+          <div class="card project-card hvr-grow mt-3">
+            <div class="card-img-wrapper">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Lambang_Kabupaten_Bandung%2C_Jawa_Barat%2C_Indonesia.svg"
+                class="card-img-top img-fluid"
+                alt="Project 2"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Siranda Pacira</h5>
+              </div>
+            </div>
+            <div class="card-body">
+              <a
+                href="https://sirandapacira.my.id"
+                class="btn btn-outline-light w-100"
+                >Visit Project</a
+              >
+            </div>
+          </div>
+        </div>
 
+        <!-- Project Card 3 -->
+        <div class="col-md-4">
+          <div class="card project-card hvr-grow mt-3">
+            <div class="card-img-wrapper">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Lambang_Kabupaten_Bandung%2C_Jawa_Barat%2C_Indonesia.svg"
+                class="card-img-top img-fluid"
+                alt="Project 3"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">SIPPEDAS Cisangkuy</h5>
+              </div>
+            </div>
+            <div class="card-body">
+              <a
+                href="https://sipedascisangkuy.my.id"
+                class="btn btn-outline-light w-100"
+                >Visit Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section
+      id="contact"
+      class="py-5"
+      style="background-color: #1b113a; color: #fff; border-radius: 10px"
+    >
+      <div class="container text-center">
+        <h2
+          class="mb-4"
+          style="font-size: 2.5rem; font-weight: 700; color: #ff2e9a"
+        >
+          Contact
+        </h2>
+        <p class="mb-3" style="font-size: 1.1rem">
+          Feel free to reach out to me through email or follow me on social
+          media!
+        </p>
 
+        <p style="font-size: 1.1rem">
+          Email:
+          <a
+            href="mailto:nsgilang10@gmail.com"
+            style="color: #ff2e9a; text-decoration: none"
+            >nsgilang10@gmail.com</a
+          >
+        </p>
 
+        <div class="social-icons mt-4">
+          <a
+            href="https://www.linkedin.com/in/gilang-nanda-saputra-6b63a2292/"
+            target="_blank"
+            style="margin: 0 10px; display: inline-block"
+          >
+            <i
+              class="fa fa-linkedin"
+              aria-hidden="true"
+              width="40"
+              style="transition: transform 0.3s ease"
+            ></i>
+          </a>
+          <a
+            href="https://www.instagram.com/gilngns/"
+            target="_blank"
+            style="margin: 0 10px; display: inline-block"
+          >
+            <i
+              class="fa fa-instagram"
+              aria-hidden="true"
+              width="40"
+              style="transition: transform 0.3s ease"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </section>
 
+    <!-- Elemen dekoratif di belakang -->
+    <div class="decorative-background">
+      <div
+        class="decorative-element decorative-element-1"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      ></div>
+      <div
+        class="decorative-element decorative-element-2"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      ></div>
+      <div
+        class="decorative-element decorative-element-3"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      ></div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init(); // Inisialisasi AOS
+    </script>
+  </body>
 </html>
